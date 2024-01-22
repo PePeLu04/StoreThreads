@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.joseluis.Controller.StoreController">
+   <Button layoutX="389.0" layoutY="236.0" onAction="#handleRestockButton" style="-fx-background-color: #29B3BE;" text="Restock Products" />
+   <Button layoutX="303.0" layoutY="236.0" onAction="#handleBuyButton" style="-fx-background-color: #29B3BE;" text="Buy Product" />
+   <Label fx:id="statusLabel" layoutX="303.0" layoutY="282.0" prefHeight="99.0" prefWidth="194.0" text="" />
+   <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="325.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../images/776645.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
