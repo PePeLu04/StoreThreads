@@ -1,6 +1,5 @@
 package org.joseluis.Controller;
 
-// StoreController.java
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
